@@ -1,0 +1,27 @@
+.header .sale {
+	background-color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+}
+
+.sale .content {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.header .main {
+	display: flex;
+	justify-content: space-between;
+	height: 160px;
+	align-items: center;
+	padding: 0 60px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

@@ -1,0 +1,40 @@
+.products {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 120px;
+}
+
+.products .title {
+	font-size: 64px;
+	font-weight: 500;
+	margin-bottom: 42px;
+}
+
+.products .desc {
+	font-size: 32px;
+	font-weight: 500;
+	margin-bottom: 52px;
+}
+
+.products .productList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.products .view-all {
+	display: flex;
+	align-items: center;
+	font-size: 36px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.87);
+	margin-top: 40px;
+	cursor: pointer;
+	margin-bottom: 126px;
+}
+
+.view-all .icon {
+	scale: 1.5;
+	margin-left: 12px;
+}
