@@ -11,15 +11,15 @@ const Header = () => {
 				<p className="content">AUTUMN SALE: OUR BEST PRICES EVER</p>
 			</div>
 			<div className="main">
-				<div className="menu-bar">
+				{/* <div className="menu-bar"> */}
 					<img src={MenuBar} className="menu-img" alt="menu" />
-				</div>
-				<div className="logo">
+				{/* </div> */}
+				{/* <div className="logo"> */}
 					<img src={Logo} className="logo-img" alt="logo" />
-				</div>
-				<div className="search">
+				{/* </div> */}
+				{/* <div className="search"> */}
 					<img src={Search} className="search-img" alt="logo" />
-				</div>
+				{/* </div> */}
 			</div>
 		</div>
 	);

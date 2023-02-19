@@ -9,7 +9,7 @@ var cors = require('cors');
 const mongoose = require('mongoose');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var usersRouter = require('./routes/userRouter');
 
 var app = express();
 
@@ -21,8 +21,8 @@ require('dotenv').config()
 mongoose.connect(
   process.env.DB_CONNECT_STRING || "mongodb://localhost:27017/PijamaDB",
   {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true,
   },
   (err) => {
     if (err) {
@@ -50,7 +50,7 @@ app.use(cors());
 
 
 app.use('/', indexRouter);
-app.use('/user', usersRouter);
+app.use('/api/user', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

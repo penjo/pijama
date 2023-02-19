@@ -3,25 +3,33 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 80px;
+	height: 40px;
 }
 
 .sale .content {
 	color: #fff;
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: 700;
 }
 
 .header .main {
 	display: flex;
 	justify-content: space-between;
-	height: 160px;
+	height: 80px;
 	align-items: center;
 	padding: 0 60px;
 }
 
-.logo {
-	display: flex;
+.logo-img {
+	object-fit: cover;
+	width: 70px;
+	/* display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center; */
+}
+.menu-img{
+	width: 50px;
+}
+.search-img{
+	width: 50px;
 }

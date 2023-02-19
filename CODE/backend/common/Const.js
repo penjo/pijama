@@ -12,10 +12,12 @@ module.exports = {
     linkUpdateUser: '/updateUser',
     linkDeleteUser: '/deleteUser',
     linkGetAllUser: '/getAllUser',
+    linkGetUserByID: '/getUserByID',
     //END link User
 
-    //Link login/logout/token
+    //Link login/register/logout/token
     linkLogin: '/login',
+    linkRegister: '/register',
     linkLogout: '/logout',
     linkRefreshToken: '/refreshToken',
     linkCurrentUser: '/currentUser',

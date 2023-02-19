@@ -58,10 +58,12 @@ var userSchema = new mongoose.Schema(
 		passwordResetExpires: Date,
 	},
 	{ timestamps: true },
-	{
-		collection: "T_USER", //Tên collection chúng ta muốn tạo ra trong database
-	}
+	// {
+	// 	collection: "T_USER", //Tên collection chúng ta muốn tạo ra trong database
+	// }
 );
 
 //Export the model
-module.exports = mongoose.model("UserModel", userSchema);
+module.exports = mongoose.model("UserModel", userSchema,"T_USER");
+
+

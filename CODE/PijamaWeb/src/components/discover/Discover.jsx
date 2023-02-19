@@ -8,17 +8,17 @@ const Discover = () => {
 			<div className="background"></div>
 			<div className="title">Pride of LULA</div>
 			<div className="content">
-				<div classname="text">
+				<div className="text">
 					Because it is made from 100% natural, it is not mixed with any other
 					materials. And this is also the reason why silk fabric becomes safe
 					for users because it does not cause skin irritation for sensitive
 					people.
 				</div>
-				<div classname="text">
+				<div className="text">
 					Of all her pajamas designs, Lula believes that Silk is the perfect
 					material to convey all of our enthusiasm in it!
 				</div>
-				<div classname="text">
+				<div className="text">
 					Let Lula bring tender love to you, because you deserve it!
 				</div>
 			</div>
