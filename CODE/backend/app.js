@@ -8,6 +8,7 @@ var cors = require('cors');
 
 const mongoose = require('mongoose');
 
+// Khai bao router de tao API
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/userRouter');
 
