@@ -70,4 +70,8 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+<<<<<<< HEAD
 
+=======
+//git@gasdsadasdsadasas
+>>>>>>> c2a230a117f47b52937221f5fd2dbc0548a69854
