@@ -1,19 +1,18 @@
-import React from 'react'
-import Footer from '../footer/Footer'
-import Header from '../header'
-import { Container, CssBaseline } from "@mui/material"
-const Layout = (props) => {
-   return (
-      <div>
-         {/* <CssBaseline />
-         <Header />
-         <Container> */}
-            {props.childrend}
+import React from "react";
+import Header from "../header";
+import Footer from "../footer/Footer";
+import { Outlet, Link } from "react-router-dom";
 
-         {/* </Container>
-         <Footer /> */}
-      </div>
-   )
+
+function Layout({ childrend }) {
+	return (
+		<>
+			<Header></Header>
+			<Outlet />
+			{/* {childrend} */}
+			<Footer></Footer>
+		</>
+		
+	);
 }
-
-export default Layout
+export default Layout;

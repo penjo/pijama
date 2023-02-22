@@ -1,28 +1,38 @@
 import React from "react";
+import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
+import { Switch, Route, Link, NavLink } from "react-router-dom";
 import "./style.css";
-import MenuBar from "../../assets/images/MENU_BAR.png";
-import Logo from "../../assets/images/LOGO.png";
-import Search from "../../assets/images/Search.png";
+import "./nav.css"
+import HeaderIcons from "./header-icon";
+import HeaderLogo from "./Logo";
+import TopHeader from "./TopHeader";
+import Search from "./Search";
+import {BiBasket,BiUserCircle} from "react-icons/bi";
 
 const Header = () => {
 	return (
-		<div className="header">
-			<div className="sale">
-				<p className="content">AUTUMN SALE: OUR BEST PRICES EVER</p>
-			</div>
+	<div className="header">
+			<TopHeader/>
+			<Navbar variant="tab">
 			<div className="main">
-				{/* <div className="menu-bar"> */}
-					<img src={MenuBar} className="menu-img" alt="menu" />
-				{/* </div> */}
-				{/* <div className="logo"> */}
-					<img src={Logo} className="logo-img" alt="logo" />
-				{/* </div> */}
-				{/* <div className="search"> */}
-					<img src={Search} className="search-img" alt="logo" />
-				{/* </div> */}
+			<Navbar.Brand as={Link} to="/"> 
+			<HeaderLogo/> 
+			</Navbar.Brand>
+			<Search/>
+			<Nav className="ms-auto">
+			<div className="header-icons"> 
+				<Nav.Link as={NavLink} to="/user">
+					<BiUserCircle className="profile"/>
+              	</Nav.Link>
+				<Nav.Link as={NavLink} to="/cart">
+                	<BiBasket className="cart"/>
+              	</Nav.Link>
 			</div>
+			</Nav>
 		</div>
+		</Navbar>
+	</div>
+		
 	);
 };
-
 export default Header;
