@@ -53,8 +53,8 @@
 
 .search-bar > svg{
 	padding: 2px;
-	height: 40px;
-	width: 35px;
+	height: 36px;
+	width: 36px;
 	fill: #fff;
 }
 
@@ -62,4 +62,5 @@ input{
 	width: 680px;
 	padding: 6px;
 	border: 1px solid #000;
+	font-size: 20px;
 }

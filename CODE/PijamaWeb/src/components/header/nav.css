@@ -10,3 +10,13 @@
     height: 35px;
     color: black;
 }
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar-brand h3{
+    width: 140px;
+    font-size: 25px;
+    color: #000;
+}
