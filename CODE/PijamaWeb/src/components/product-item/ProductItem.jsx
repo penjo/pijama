@@ -8,7 +8,7 @@ const ProductItem = ({ imgUrl, price, name, isMiddle }) => {
 			style={
 				isMiddle
 					? {
-							marginTop: "40px",
+							marginTop: "0px",
 					  }
 					: {}
 			}
