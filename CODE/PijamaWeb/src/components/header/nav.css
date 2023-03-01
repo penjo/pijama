@@ -9,6 +9,7 @@
     width: 100%;
     height: 35px;
     color: black;
+    padding-left: 10px;
 }
 .navbar-brand{
     display: flex;

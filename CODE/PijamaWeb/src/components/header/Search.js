@@ -7,7 +7,7 @@ import {BiSearch} from "react-icons/bi";
     return (
         <div className="search-bar">
                 <input type="text" placeholder="Tìm Kiếm Sản Phẩm"/>
-                    <BiSearch className="search-icon"/>
+                    <a><BiSearch className="search-icon"/></a>
             </div>
     )
  }
