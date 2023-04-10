@@ -7,16 +7,23 @@
 }
 
 .feedback .title {
-	font-size: 96px;
+	font-size: 50px;
 	font-weight: 500;
 	margin-bottom: 80px;
 }
 
 .feedback .detail {
 	color: rgba(0, 0, 0, 0.65);
-	font-size: 64px;
+	font-size: 35px;
 	width: 1370px;
 	text-align: center;
 	font-weight: 500;
 	margin-bottom: 60px;
+}
+
+.feedback .img-fb{
+	height: 600px;
+	width: 1000px;
+	display: flex;
+	justify-content: center;
 }

@@ -1,12 +1,12 @@
 .discover {
-	height: 1080px;
+	height: 800px;
 	position: relative;
 }
 
 .discover .background {
 	background-image: url("../../assets/images/image\ 7.png");
 	width: 100%;
-	height: 100%;
+	height: 800px;
 	z-index: 0;
 	position: absolute;
 	top: 0;
@@ -17,7 +17,7 @@
 	background-color: rgba(0, 0, 0, 0.4);
 	content: "";
 	width: 100%;
-	height: 100%;
+	height: 800px;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -29,7 +29,7 @@
 	left: 50%;
 	translate: -50% 0;
 	color: #fff;
-	font-size: 96px;
+	font-size: 50px;
 	text-align: center;
 }
 
@@ -41,7 +41,7 @@
 	top: 344px;
 	translate: -50% 0;
 	left: 50%;
-	font-size: 36px;
+	font-size: 25px;
 	line-height: 50px;
 	gap: 24px;
 	position: absolute;
@@ -49,17 +49,18 @@
 
 .discover .button-discover {
 	position: absolute;
-	width: 434px;
-	height: 140px;
-	display: flex;
-	align-items: center;
-	color: #fff;
-	font-size: 40px;
-	font-weight: 500;
-	border: none;
-	background-color: #000;
-	justify-content: center;
-	top: 824px;
-	left: 50%;
-	translate: -50% 0;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    /* border: none; */
+    background-color: #000;
+    top: 650px;
+    left: 50%;
+    translate: -50% 0;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 }

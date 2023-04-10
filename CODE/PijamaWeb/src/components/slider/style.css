@@ -1,8 +1,8 @@
 .slider {
-	height: 1000px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .slider .slider-item {
@@ -35,10 +35,16 @@
 }
 
 .slider .slider-item .name {
-	margin-top: 80px;
-	margin-bottom: 56px;
-	font-size: 96px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	font-size: 50px;
 	font-weight: 500;
+}
+
+.slider .slider-item .desc {
+	font-size: 50px;
+	font-weight: 300;
+	margin-bottom: 40px;
 }
 
 .slider .next,
@@ -46,8 +52,10 @@
 	cursor: pointer;
 }
 
-.slider .slider-item .desc {
-	font-size: 64px;
-	font-weight: 300;
-	margin-bottom: 40px;
+
+
+
+.slider-item img{
+	width: 100px;
+	
 }

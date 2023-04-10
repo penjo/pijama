@@ -26,15 +26,22 @@
 .products .view-all {
 	display: flex;
 	align-items: center;
-	font-size: 36px;
+	font-size: 25px;
 	font-weight: 500;
 	color: rgba(0, 0, 0, 0.87);
-	margin-top: 40px;
+	margin-top: 10px;
+	padding:2px;
 	cursor: pointer;
-	margin-bottom: 126px;
+	margin-bottom: 50px;
+	border: 3px solid ;
+	border-radius: 5px;
 }
 
-.view-all .icon {
-	scale: 1.5;
-	margin-left: 12px;
+.products .view-all:hover{
+	background-color: black;
+	color: white;
+}
+
+p{
+	margin: 20px;
 }

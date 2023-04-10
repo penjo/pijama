@@ -29,16 +29,16 @@
 
 .player .player-btn {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: absolute;
-	width: 472px;
-	height: 472px;
-	border-radius: 50%;
-	background-color: #fff;
-	top: 250px;
-	left: 50%;
-	translate: -50% 0;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 250px;
+    left: 50%;
+    translate: -50% 0;
 }
 
 .player .title {

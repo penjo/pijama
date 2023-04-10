@@ -10,7 +10,7 @@ const Feedback = () => {
 				Your feedback helps us to improve the quality of our products and
 				services
 			</div>
-			<div className="img">
+			<div className="img-fb">
 				<img src={Image} alt="" />
 			</div>
 		</div>

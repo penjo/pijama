@@ -2,11 +2,12 @@ import React from "react";
 import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
 import { Switch, Route, Link, NavLink } from "react-router-dom";
 import "./style.css";
-import "./nav.css"
+import "./nav.css";
 import HeaderIcons from "./header-icon";
 import HeaderLogo from "./Logo";
 import TopHeader from "./TopHeader";
 import Search from "./Search";
+import Test from "./Menu/Menu";
 import {BiBasket,BiUserCircle} from "react-icons/bi";
 
 const Header = () => {
@@ -15,6 +16,7 @@ const Header = () => {
 			<TopHeader/>
 			<Navbar variant="tab">
 			<div className="main">
+			<Test/>
 			<Navbar.Brand as={Link} to="/"> 
 			<HeaderLogo/> 
 			</Navbar.Brand>

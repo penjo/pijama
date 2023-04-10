@@ -18,6 +18,7 @@ const Discover = () => {
 					Of all her pajamas designs, Lula believes that Silk is the perfect
 					material to convey all of our enthusiasm in it!
 				</div>
+
 				<div className="text">
 					Let Lula bring tender love to you, because you deserve it!
 				</div>

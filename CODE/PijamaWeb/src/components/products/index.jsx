@@ -33,7 +33,8 @@ const Products = () => {
 				))}
 			</div>
 			<div className="view-all">
-				View All Product <img className="icon" src={ChevronRight} alt="" />
+				<p>View All Product</p>
+				
 			</div>
 		</div>
 	);
