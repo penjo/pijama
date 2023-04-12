@@ -30,7 +30,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", position: "absolute", left: "50px" }}
+      style={{ ...style, display: "block", position: "absolute", left: "45px",zIndex:1 }}
       onClick={onClick}
     >
       <img src={SwipeLeft} alt="" style={{ width: "50px", height: "50px" }} />
