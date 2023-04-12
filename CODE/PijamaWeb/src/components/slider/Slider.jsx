@@ -33,7 +33,7 @@ const Slider = ({sliders}) => {
 			</div>
 			<div className="slider-item">
 				<div className="img">
-					<img src={sliders[currentSlide].imgUrl} alt="" />
+					<img src={sliders[currentSlide].imgUrl} alt="" style={{height:"200px", width:"200px"}}/>
 				</div>
 				<div className="name">{sliders[currentSlide].name}</div>
 				<div className="desc">{sliders[currentSlide].desc}</div>

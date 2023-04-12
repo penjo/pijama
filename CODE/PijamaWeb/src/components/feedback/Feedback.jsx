@@ -11,7 +11,7 @@ const Feedback = () => {
 				services
 			</div>
 			<div className="img">
-				<img src={Image} alt="" />
+				<img src={Image} alt="" className="image" />
 			</div>
 		</div>
 	);

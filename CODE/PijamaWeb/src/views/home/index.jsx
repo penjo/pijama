@@ -9,17 +9,26 @@ import Slider from "../../components/slider/Slider.jsx";
 
 import {sliders} from '../../data/fake'
 import "./styles.css";
-
+import { Container } from "@mui/material";
+import Carousel from "../../components/carousel/index.jsx";
+// import Carousel from "react-slick";
 
 export default function HomePage() {
+
 	return (
-		<div className="container">
+		<>
+		<div >
+
+			<Carousel/>
+		<Container >
 			<Products />
 			<Player />
 			<Slider sliders={sliders}/>
 			<NewProduct />
 			<Discover />
 			<Feedback />
+		</Container>
 		</div>
+		</>
 	);
 }

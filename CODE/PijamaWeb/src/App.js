@@ -9,7 +9,8 @@ import HomePage from "./views/home";
 import Cart from "./components/Cart/Cart";
 import User from "./components/User/user";
 import {  Routes, Switch, Route, Link } from "react-router-dom";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 function App() {
 	return (
 		<>

@@ -1,3 +1,8 @@
+
+.header{
+	display: flex;
+	flex-direction: column;
+}
 .header .sale {
 	background-color: #000;
 	display: flex;
@@ -16,6 +21,7 @@
 	display: flex;
 	height: 120px;
 	align-items: center;
+	flex-direction: row;
 	justify-content: space-between;
 	padding: 0 60px;
 	border: 2px solid black;
@@ -38,7 +44,9 @@
 	justify-content: center;
 }
 
-
+.header-icons .header-icon{
+	width: 60px;
+}
 .search-bar {
 	display: flex;
     width: 100%;
@@ -58,8 +66,9 @@
 	fill: #fff;
 }
 
-input{
-	width: 680px;
+.header input{
+	min-width: 40vw;
+	max-width: 60vw;
 	padding: 6px;
 	border: 1px solid #000;
 	font-size: 20px;

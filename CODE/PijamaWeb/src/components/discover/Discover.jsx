@@ -1,11 +1,14 @@
 import React from "react";
 import ChevronRight from "../../assets/images/Chevron right white.png";
+import bg from "../../assets/images/image 7.png";
 import "./style.css";
 
 const Discover = () => {
 	return (
 		<div className="discover">
-			<div className="background"></div>
+			<div className="background">
+				<img src={bg} alt="bg"></img>
+			</div>
 			<div className="title">Pride of LULA</div>
 			<div className="content">
 				<div className="text">
@@ -23,7 +26,7 @@ const Discover = () => {
 				</div>
 			</div>
 			<button className="button-discover">
-				Shop Now <img src={ChevronRight} alt="" />
+				Discover Now <img src={ChevronRight} alt="" className="image"/>
 			</button>
 		</div>
 	);

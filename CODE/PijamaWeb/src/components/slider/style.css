@@ -1,8 +1,9 @@
 .slider {
-	height: 1000px;
+	/* height: 1000px; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 40px 0px;
 }
 
 .slider .slider-item {
@@ -35,19 +36,30 @@
 }
 
 .slider .slider-item .name {
-	margin-top: 80px;
-	margin-bottom: 56px;
-	font-size: 96px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	font-size: 46px;
 	font-weight: 500;
+}
+.slider .slider-item .img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px
 }
 
 .slider .next,
 .slider .back {
 	cursor: pointer;
+
+}
+.slider .next img,
+.slider .back img{
+	width: 100px;
 }
 
 .slider .slider-item .desc {
-	font-size: 64px;
+	font-size: 24px;
 	font-weight: 300;
 	margin-bottom: 40px;
 }

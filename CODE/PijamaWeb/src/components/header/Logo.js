@@ -6,7 +6,7 @@ const HeaderLogo = () =>{
     return(
         <>
         <img src={Logo} className="logo-img" alt="logo" />
-        <h3>LULA SHOP</h3>
+        {/* <h3>LULA SHOP</h3> */}
         </>
     )
 }
