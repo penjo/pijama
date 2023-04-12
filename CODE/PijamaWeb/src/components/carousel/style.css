@@ -1,10 +1,10 @@
 .carousel {
     position: relative;
 }
-.carousel .carousel-item{
+/* .carousel .carousel-item{
     background-color: #000;
     opacity: 0.7;
-}
+} */
 .carousel .slick-prev:before{
 	display: none;
 }
