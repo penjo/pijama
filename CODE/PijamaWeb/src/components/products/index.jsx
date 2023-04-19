@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link, NavLink } from "react-router-dom";
 import ProductItem from "../product-item/ProductItem";
 import Product1 from "../../assets/images/image 5.png";
 import Product2 from "../../assets/images/image 4.png";
@@ -7,6 +8,7 @@ import Product3 from "../../assets/images/image 3.png";
 import Product4 from "../../assets/images/image 2.png";
 import ChevronRight from "../../assets/images/Chevron right.png";
 import { Grid } from "@mui/material";
+import { Nav } from "react-bootstrap";
 
 const productImages = [
   Product1,
@@ -46,10 +48,11 @@ const Products = () => {
           Preoder now to receive exclusive deals & gifts
         </div>
         <div >
+        <Nav.Link as={NavLink} to="/text">
       <Grid container spacing={2}>
           {productImages.map((item, index) => (
             <>
-              <Grid item xs={6} md={4} lg={4} sx={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+              <Grid item xs={6} md={4} lg={4} sx={{display:"flex",justifyContent:"center",alignItems:"center",border: "2px solid #000"}}>
                 <ProductItem
                   isMiddle={index % 3 === 1}
                   key={index}
@@ -61,10 +64,14 @@ const Products = () => {
             </>
           ))}
       </Grid>
+      </Nav.Link>
         </div>
         <div className="view-all">
+          <Nav.Link as={NavLink} to="/products">
           View All Product <img className="icon" src={ChevronRight} alt="" />
-        </div></div>
+          </Nav.Link>
+        </div>
+        </div>
     </>
   );
 };

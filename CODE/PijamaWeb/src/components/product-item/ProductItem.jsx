@@ -1,8 +1,10 @@
 import React from "react";
 import "./style.css";
+
+
 import Heart from "../../assets/images/ant-design_heart-outlined.png";
 import FavoriteOutlined from '@mui/icons-material/FavoriteOutlined';
-const ProductItem = ({ imgUrl, price, name, isMiddle }) => {
+const ProductItem = ({ imgUrl, id, price, name, isMiddle }) => {
 	return (
 		<div
 			style={
@@ -22,6 +24,7 @@ const ProductItem = ({ imgUrl, price, name, isMiddle }) => {
 			<div className="product-item-img">
 				<img src={imgUrl} alt={name} style={{width:"200px"}}/>
 			</div>
+			<div className="product-id">{id}</div>
 			<div className="product-type">Dress</div>
 			<div className="product-name">{name}</div>
 			<div className="product-price">{price}đ</div>

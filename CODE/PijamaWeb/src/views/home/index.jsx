@@ -18,16 +18,15 @@ export default function HomePage() {
 	return (
 		<>
 		<div >
-
 			<Carousel/>
-		<Container >
+			<Container >
 			<Products />
 			<Player />
 			<Slider sliders={sliders}/>
 			<NewProduct />
 			<Discover />
 			<Feedback />
-		</Container>
+			</Container>
 		</div>
 		</>
 	);
